@@ -4,6 +4,12 @@
     margin: 0;
     font-family: 'Poppins'; sans-serif;
 }
+
+section{
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
 header
 {
     background-color: #8fb900;
@@ -17,6 +23,7 @@ header a{
     font-size: 18px;
     padding: 12px;
     border: 2px solid #FFF;
+    font-weight:bold;
 }
 header a:hover{
     color: #8fb900;
@@ -33,4 +40,26 @@ header div
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+}
+
+.main-image{
+    position: relative;
+}
+.main-image div{
+    background-color: rgb(185, 0, 50, 0.4);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom:6px;
+    left: 0;
+    
+}
+
+.main-image p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 17px;
 }
