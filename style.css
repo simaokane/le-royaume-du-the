@@ -62,7 +62,7 @@ header a:hover{
     background-color: #fff
 }
 
-header h1{
+h1{
     font-size: 22px;
 }
 
@@ -123,13 +123,23 @@ header h1{
 
 /*FOOTER*/  
 footer{
+        background-color: #8fb900; 
+        color: #FFF;
+        margin-top: 80px;
+        height: 80px;
+}
+
+footer a{
     color: #FFF;
-    height: 80px;
-    background-color: #8fb900;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+footer p{
+
+    font-size: 22px;
+    font-weight: bold;
 }
 
 
