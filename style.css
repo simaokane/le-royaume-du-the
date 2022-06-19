@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 *
 {
     padding: 0;
@@ -18,14 +20,23 @@ h3{
     font-size: 18px;
     color: #b90032;
 }
+
+/*HEADER*/
 header
 {
     background-color: #8fb900;
-    display: flex;
-    justify-content: center;
     color: #FFF;
 }
 
+.container
+{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    margin: auto;
+}
 
 .btn-red{
     border: none;
@@ -54,14 +65,8 @@ header a:hover{
 header h1{
     font-size: 22px;
 }
-header div
-{
-    width: 1160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-}
+
+/*SECTION AMIN IMAGES*/
 
 .main-image{
     position: relative;
@@ -84,6 +89,8 @@ header div
     color: #fff;
     margin: 0 17px;
 }
+
+/*ITEMS*/
 
 .items{
     margin-top: 80px;
@@ -113,4 +120,17 @@ header div
 .description-business{
     width: 570px;
 }
+
+/*FOOTER*/  
+footer{
+    color: #FFF;
+    height: 80px;
+    background-color: #8fb900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
 
