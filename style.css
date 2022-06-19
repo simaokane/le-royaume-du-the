@@ -10,6 +10,14 @@ section{
     margin: 0 auto;
     margin-top: 80px;
 }
+p{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 18px;
+    color: #b90032;
+}
 header
 {
     background-color: #8fb900;
@@ -17,14 +25,27 @@ header
     justify-content: center;
     color: #FFF;
 }
-header a{
+
+
+.btn-red{
+    border: none;
+    background-color: #b90032;
+    color: #FFF;
+    width: 100%;
+    padding: 12px 0 !important;
+    text-align: center;      
+}
+
+.btn{
     color: #FFF;
     text-decoration: none;
     font-size: 18px;
-    padding: 12px;
+    padding: 12px;  
     border: 2px solid #FFF;
-    font-weight:bold;
+    font-weight:bold; 
+    display: block; 
 }
+
 header a:hover{
     color: #8fb900;
     background-color: #fff
@@ -63,3 +84,24 @@ header div
     color: #fff;
     margin: 0 17px;
 }
+
+.items{
+    margin-top: 80px;
+}
+
+.item{
+    margin-top: 25px;
+    width: 280px;
+    border: 1px solid #b90032;
+   
+}
+.item-description{
+    padding: 10px;
+}
+
+.container-items{
+    display: flex;
+    justify-content: space-between;
+
+}
+
