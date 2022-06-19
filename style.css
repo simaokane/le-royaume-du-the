@@ -8,7 +8,7 @@
 }
 
 section{
-    width: 1160px;
+    max-width:  1160px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -30,7 +30,7 @@ header
 
 .container
 {
-    width: 1160px;
+    max-width: 1160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,6 +71,11 @@ h1{
 .main-image{
     position: relative;
 }
+
+.main-image img{
+    width: 100%;
+}
+
 .main-image div{
     background-color: rgb(185, 0, 50, 0.4);
     height: 55px;
@@ -94,6 +99,7 @@ h1{
 
 .items{
     margin-top: 80px;
+  
 }
 
 .item{
@@ -109,12 +115,18 @@ h1{
 .container-items{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
  /*BUSINESS*/
 .business{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.business img{
+    width: 100%;
 }
 
 .description-business{
@@ -141,6 +153,9 @@ footer p{
     font-size: 22px;
     font-weight: bold;
 }
+
+
+
 
 
 
